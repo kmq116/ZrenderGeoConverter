@@ -37,5 +37,12 @@
     "json",
     "jsonc",
     "yaml"
-  ]
+  ],
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f",
+    "activityBar.background": "#550B4B",
+    "titleBar.activeBackground": "#770F69",
+    "titleBar.activeForeground": "#FFFBFE"
+  }
 }

@@ -1,4 +1,4 @@
-# pkg-placeholder
+# zrender-geo-converter
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -9,7 +9,7 @@
 _description_
 
 > **Note**:
-> Replace `pkg-placeholder`, `_description_` and `kmq116` globally to use this template.
+> Replace `zrender-geo-converter`, `_description_` and `kmq116` globally to use this template.
 
 ## Sponsors
 
@@ -25,13 +25,13 @@ _description_
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/pkg-placeholder
-[npm-downloads-src]: https://img.shields.io/npm/dm/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/pkg-placeholder
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=pkg-placeholder
-[license-src]: https://img.shields.io/github/license/kmq116/pkg-placeholder.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/kmq116/pkg-placeholder/blob/main/LICENSE
+[npm-version-src]: https://img.shields.io/npm/v/zrender-geo-converter?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/zrender-geo-converter
+[npm-downloads-src]: https://img.shields.io/npm/dm/zrender-geo-converter?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/zrender-geo-converter
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/zrender-geo-converter?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=zrender-geo-converter
+[license-src]: https://img.shields.io/github/license/kmq116/zrender-geo-converter.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/kmq116/zrender-geo-converter/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
-[jsdocs-href]: https://www.jsdocs.io/package/pkg-placeholder
+[jsdocs-href]: https://www.jsdocs.io/package/zrender-geo-converter
