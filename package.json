@@ -38,7 +38,6 @@
     "build": "unbuild --no-type-check",
     "dev": "tsup --dts --watch",
     "lint": "eslint .",
-    "prepublishOnly": "nr build",
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
