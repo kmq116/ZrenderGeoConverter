@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "lib": ["DOM", "ESNext"],
+    "target": "es5", // 改为 es5
+    "lib": ["DOM", "ES5", "ES6"], // 修改 lib
     "moduleResolution": "node",
     "alwaysStrict": true,
     "noImplicitAny": false,
