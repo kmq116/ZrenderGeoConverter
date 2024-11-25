@@ -4,6 +4,8 @@
 
 一个用于在 ZRender 屏幕坐标系和地理坐标系（WGS84）之间进行转换的工具库。
 
+![alt text](image.png)
+
 ## 特性
 
 - 支持地理坐标（经纬度）到屏幕坐标的转换
@@ -14,3 +16,7 @@
 - 支持 TypeScript
 
 ## 安装
+
+```bash
+npm i zrender-geo-converter
+```

@@ -4,6 +4,8 @@ English | [简体中文](./README.md)
 
 A utility library for converting between ZRender screen coordinates and geographic coordinates (WGS84).
 
+![alt text](image.png)
+
 ## Features
 
 - Convert between geographic coordinates (longitude/latitude) and screen coordinates
@@ -15,4 +17,5 @@ A utility library for converting between ZRender screen coordinates and geograph
 ## Installation
 
 ```bash
-npm install zrender-geo
+npm i zrender-geo-converter
+```
