@@ -14,11 +14,28 @@
       border: 1px solid #ccc;
       margin: 20px auto;
     }
+    .title {
+      text-align: center;
+      color: #333;
+      margin: 20px 0;
+    }
+    .desc {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      color: #666;
+    }
   </style>
 </head>
 <body>
+  <h1 class="title">ZRender Geo Converter Demo</h1>
+  <div class="desc">
+    演示功能：<br>
+    1. 实时显示鼠标位置的屏幕坐标和对应经纬度<br>
+    2. 点击地图添加标记点，显示经纬度信息<br>
+    3. 边界多边形展示
+  </div>
   <div id="container"></div>
-  <script src="./main.js">
-  </script>
+  <script src="./main.js"></script>
 </body>
 </html> 

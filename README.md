@@ -1,37 +1,16 @@
-# zrender-geo-converter
+# ZRender Geo Converter
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![bundle][bundle-src]][bundle-href]
-[![JSDocs][jsdocs-src]][jsdocs-href]
-[![License][license-src]][license-href]
+[English](./README_EN.md) | 简体中文
 
-_description_
+一个用于在 ZRender 屏幕坐标系和地理坐标系（WGS84）之间进行转换的工具库。
 
-> **Note**:
-> Replace `zrender-geo-converter`, `_description_` and `kmq116` globally to use this template.
+## 特性
 
-## Sponsors
+- 支持地理坐标（经纬度）到屏幕坐标的转换
+- 支持屏幕坐标到地理坐标的转换
+- 支持 GeoJSON 数据的转换
+- 支持事件坐标的便捷转换
+- 轻量级，无重度依赖
+- 支持 TypeScript
 
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/kmq116/static/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/kmq116/static/sponsors.svg'/>
-  </a>
-</p>
-
-## License
-
-[MIT](./LICENSE) License © 2023-PRESENT [kmq116](https://github.com/kmq116)
-
-<!-- Badges -->
-
-[npm-version-src]: https://img.shields.io/npm/v/zrender-geo-converter?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/zrender-geo-converter
-[npm-downloads-src]: https://img.shields.io/npm/dm/zrender-geo-converter?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/zrender-geo-converter
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/zrender-geo-converter?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=zrender-geo-converter
-[license-src]: https://img.shields.io/github/license/kmq116/zrender-geo-converter.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/kmq116/zrender-geo-converter/blob/main/LICENSE
-[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
-[jsdocs-href]: https://www.jsdocs.io/package/zrender-geo-converter
+## 安装
