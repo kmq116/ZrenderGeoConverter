@@ -1,14 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "lib": ["ESNext", "dom"],
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "resolveJsonModule": true,
-    "strict": true,
-    "strictNullChecks": true,
-    "esModuleInterop": true,
-    "skipDefaultLibCheck": true,
-    "skipLibCheck": true
+    "target": "esnext",
+    "lib": ["DOM", "ESNext"],
+    "moduleResolution": "node",
+    "alwaysStrict": true,
+    "noImplicitAny": false,
+    "declaration": true,
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true // 指定输出目录，可自行修改
   }
 }

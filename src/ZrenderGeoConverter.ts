@@ -1,4 +1,5 @@
 import * as turf from '@turf/turf'
+import type { Position } from 'geojson'
 
 /**
  * Zrender地理坐标转换工具
@@ -99,7 +100,7 @@ export class ZrenderGeoConverter {
    * @param {number} y - 屏幕y坐标
    * @returns {Array<number>} [lng, lat] WGS84经纬度坐标
    */
-  toWgs84Coord(x: number, y: number) {
+  toWgs84Coord(x: number, y: number): Position {
     // 计算缩放比例
     const scaleX
       = this.containerSize.width / (this.bounds.maxX - this.bounds.minX)

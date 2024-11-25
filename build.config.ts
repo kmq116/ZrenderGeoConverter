@@ -9,4 +9,8 @@ export default defineBuildConfig({
   rollup: {
     emitCJS: true,
   },
+  externals: [
+    '@types/geojson',
+  ],
+  failOnWarn: false,
 })
