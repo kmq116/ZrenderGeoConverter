@@ -11,13 +11,11 @@ const zr = zrender.init(container)
 
 // 示例边界点坐标
 const boundaryPoints = [
-  [113.62080877953491, 23.59105955273317],
-  [113.6206257816226, 23.590995209181585],
-  [113.62072960492719, 23.590919913496734],
-  [113.62089915809486, 23.590963037394033],
-  [113.62092978223495, 23.591042440089254],
-  [113.62093874539875, 23.591117051198495],
-  [113.62080877953491, 23.59105955273317],
+  [117.06253857125165, 39.09863340023474],
+  [117.06288621978578, 39.09863340023474],
+  [117.06288621978578, 39.098903196343855],
+  [117.06253857125165, 39.098903196343855],
+  [117.06253857125165, 39.09863340023474],
 ]
 
 // 创建转换器
@@ -38,7 +36,7 @@ const polygon = new zrender.Polygon({
 })
 zr.add(polygon)
 
-// 添加坐标转换演示点
+// 添���坐标转换演示点
 let demoPoint = null
 
 // 监听鼠标移动事件
@@ -91,3 +89,41 @@ zr.on('click', (e) => {
   zr.add(demoPoint)
   zr.add(text)
 })
+
+// 添加绘制指定经纬度点的函数
+function drawPointByCoordinate(lng, lat) {
+  const [x, y] = converter.toZrenderCoord(lng, lat)
+
+  // 创建点
+  const point = new zrender.Circle({
+    shape: {
+      cx: x,
+      cy: y,
+      r: 5,
+    },
+    style: {
+      fill: '#1890ff',
+      stroke: '#fff',
+      lineWidth: 2,
+    },
+  })
+
+  // 创建标签
+  const text = new zrender.Text({
+    style: {
+      text: `经度: ${lng.toFixed(6)}\n纬度: ${lat.toFixed(6)}`,
+      x: x + 10,
+      y: y - 20,
+      fontSize: 12,
+      fill: '#333',
+    },
+  })
+
+  zr.add(point)
+  zr.add(text)
+
+  return { point, text } // 返回点和文本对象，方便后续需要删除时使用
+}
+
+// 使用示例：
+drawPointByCoordinate(117.062732180068, 39.098744938701046)
